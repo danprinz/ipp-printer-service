@@ -1,0 +1,17 @@
+print_pdf:
+  name: Print PDF
+  description: Prints a PDF file to the specified IPP printer.
+  fields:
+    entity_id:
+      name: Entity
+      description: The IPP printer entity to use.
+      required: true
+      selector:
+        entity:
+          integration: ipp_printer_service
+    file_path:
+      name: File Path
+      description: The absolute path to the PDF file to print.
+      required: true
+      selector:
+        text:

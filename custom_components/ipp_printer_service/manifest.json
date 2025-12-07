@@ -1,0 +1,11 @@
+{
+  "domain": "ipp_printer_service",
+  "name": "IPP Printer Service",
+  "version": "1.0.0",
+  "documentation": "https://github.com/your_github_username/ipp_printer_service",
+  "issue_tracker": "https://github.com/your_github_username/ipp_printer_service/issues",
+  "dependencies": ["ipp"],
+  "codeowners": ["@your_github_username"],
+  "requirements": [],
+  "config_flow": true
+}
